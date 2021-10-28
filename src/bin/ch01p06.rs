@@ -1,3 +1,7 @@
+/*
+   問題: 文字の連続する数を使って基本的な文字列圧縮を行うメソッドを実装する。圧縮返還された文字列が元の文字列よりも短くないなら、元の文字列を返す。文字列はアルファベットの大文字と小文字の実を想定する。
+*/
+
 fn str_compression_with_fold(s: &str) -> String {
     let mut cnt = 0;
     let mut str_compressed = s.chars().fold(String::new(), |mut acc, current_char| {

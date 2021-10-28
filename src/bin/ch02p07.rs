@@ -1,4 +1,9 @@
 /*
+    問題: 2つの単方向連結リストが与えられるとき、2つのリストが共通かどうかを判定する。共通するノードを返す。共通するとは、そのノードの参照が一致するかであって値が一致するかどうかではない。
+    回答: src/linked_list.rsのdo_lists_intersect() （こっちに移すようにコメントがあり、関数自体はコメントアウトしたようである。）
+*/
+
+/*
 extern crate coding_interview;
 use coding_interview::linked_list::*;
 use std::rc::Rc;

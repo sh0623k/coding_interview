@@ -1,3 +1,6 @@
+/*
+   問題: ソートされていない連結リストから、重複する要素を削除するコードを書く。発展: もし一次的なバッファが利用できない場合はどうやって解くか。
+*/
 extern crate coding_interview;
 use coding_interview::linked_list;
 

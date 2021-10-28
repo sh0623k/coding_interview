@@ -1,3 +1,7 @@
+/*
+   問題: MyQueueというクラス名で、2つのスタックを用いてキューを実装する。
+   スタックという条件なしで実装したものがqueue.rs
+*/
 extern crate coding_interview;
 use coding_interview::queue::*;
 

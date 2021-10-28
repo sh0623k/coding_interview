@@ -1,3 +1,7 @@
+/*
+   問題: 文字列が与えられたとき、その文字列が回文の順列であるか調べる関数を書く。
+*/
+
 extern crate coding_interview;
 use coding_interview::str_helper;
 

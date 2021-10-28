@@ -1,4 +1,7 @@
-// !!解答を見た上で作成
+/*
+   問題: N*Nの行列に描かれた、1つのピクセルが4バイト四方の画像がある。その画像を90度回転させるメソッドを書く。追加領域なしでできるか？
+*/
+// !!このfnは解答を見た上で作成
 // 4つの組ごとに回転を繰り返す
 fn matrix_rotation(mut matrix: Vec<Vec<u32>>) -> Vec<Vec<u32>> {
     // チェック
@@ -25,7 +28,6 @@ fn matrix_rotation(mut matrix: Vec<Vec<u32>>) -> Vec<Vec<u32>> {
 }
 
 // 4byte = 32bit
-// 4byte四方がよくわからない
 // vec, slice : p.56
 fn matrix_rotation_with_flatten_vec(vec_to_rotate: Vec<u32>) -> Vec<u32> {
     let vec_len = vec_to_rotate.len();

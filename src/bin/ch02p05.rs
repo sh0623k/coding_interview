@@ -1,3 +1,7 @@
+/*
+   問題: 各ノードの要素が1桁の数である連結リストで表された2つの数がある。一の位がリストの先頭になるように、各位の数は逆順に並んでいる。このとき2つの数の和を求め、それを連結リストで表したものを返す関数を書く。
+*/
+
 extern crate coding_interview;
 use coding_interview::linked_list::LinkedList;
 

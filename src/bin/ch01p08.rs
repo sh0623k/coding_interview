@@ -1,3 +1,7 @@
+/*
+   問題: M*Nの行列について、要素が0であれば、その行と列の全てを0にするようなアルゴリズム。
+*/
+
 use std::collections::HashSet;
 
 fn set_zero_when_the_line_has_zero(mut matrix: Vec<Vec<usize>>) -> Vec<Vec<usize>> {

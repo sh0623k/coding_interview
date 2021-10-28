@@ -1,3 +1,7 @@
+/*
+   問題: 単方向連結リストにおいて、末尾から数えてk番目の要素を見つけるアルゴリズムを実装する。→ src/linked_list.rsのget_kth_to_last()が回答。
+*/
+
 extern crate coding_interview;
 use coding_interview::linked_list;
 

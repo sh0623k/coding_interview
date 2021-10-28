@@ -1,3 +1,7 @@
+/*
+   問題: 昇順にソートされたすべての要素が異なる配列が与えられたとき、高さが最小になる二分探索木を作るアルゴリズムを書く。
+*/
+
 extern crate coding_interview;
 use coding_interview::tree::*;
 

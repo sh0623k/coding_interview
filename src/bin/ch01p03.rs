@@ -1,3 +1,7 @@
+/*
+   問題: 文字列内に出現するすべての空白文字を'%20'で置き換えるメソッドを書く。文字列の後ろには新たに文字を追加するためのスペースが十分にあることと、その追加用スペースを除いた文字列の真の長さが与えられる。
+*/
+
 // p.391-p.393
 fn urlify_drain(str_to_url: &mut String, length: usize) -> String {
     str_to_url.drain(length..);

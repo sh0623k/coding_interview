@@ -1,3 +1,7 @@
+/*
+   問題: 連結リストが回文かどうかを調べる関数を実装する。
+*/
+
 extern crate coding_interview;
 use coding_interview::linked_list::*;
 
